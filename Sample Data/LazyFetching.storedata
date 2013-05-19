@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>6A439A28-777D-4C68-BD6B-D4CCCEC9CC5F</UUID>
+        <nextObjectID>108</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>407</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Item</key>
+                        <data>
+		+QGgBLzRK1GhtBl5uO9AH3t8elpQ00xW+DIprE9XKxk=
+		</data>
+                        <key>Shelf</key>
+                        <data>
+		/qmYyTHjv1JjtyG1kcm9ZxAoBirWpS4vBhXzYrtvi5M=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="ITEM" id="z102">
+        <attribute name="name" type="string">adfafg</attribute>
+        <relationship name="parent" type="1/1" destination="SHELF" idrefs="z103"></relationship>
+    </object>
+    <object type="SHELF" id="z103">
+        <attribute name="name" type="string">b</attribute>
+        <relationship name="items" type="0/0" destination="ITEM" idrefs="z102 z108 z105 z106 z107"></relationship>
+    </object>
+    <object type="SHELF" id="z104">
+        <attribute name="name" type="string">a</attribute>
+        <relationship name="items" type="0/0" destination="ITEM"></relationship>
+    </object>
+    <object type="ITEM" id="z105">
+        <attribute name="name" type="string">adgadfg</attribute>
+        <relationship name="parent" type="1/1" destination="SHELF" idrefs="z103"></relationship>
+    </object>
+    <object type="ITEM" id="z106">
+        <attribute name="name" type="string">adgsdfh</attribute>
+        <relationship name="parent" type="1/1" destination="SHELF" idrefs="z103"></relationship>
+    </object>
+    <object type="ITEM" id="z107">
+        <attribute name="name" type="string">adfadfasdf</attribute>
+        <relationship name="parent" type="1/1" destination="SHELF" idrefs="z103"></relationship>
+    </object>
+    <object type="ITEM" id="z108">
+        <attribute name="name" type="string">1242134</attribute>
+        <relationship name="parent" type="1/1" destination="SHELF" idrefs="z103"></relationship>
+    </object>
+</database>
